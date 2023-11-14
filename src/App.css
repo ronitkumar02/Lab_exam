@@ -1,0 +1,86 @@
+#home{
+  background: rgba(255, 255, 255, 0.45);
+  width: 80%;
+  min-height: 60vh;
+  max-height: 60%;
+  margin: 2% 10%;
+  border-radius: 10px;
+}
+.background{
+  background-color: #efe5e5;
+}
+.login{
+  margin-top: auto;
+}
+.login h2{
+  margin: 5% 0%;
+}
+.login.row{
+  position: absolute;
+}
+.login button,.form-btn{
+  background: rgba(255, 255, 255);
+  color: #000;
+  border: #f3a3a3 2px solid;
+  transition: transform 0.4s ease;
+  height: 40px;
+  width: 80%;
+}
+
+.login button:hover,.form-btn:hover{
+  color: #000;
+  height: 40px;
+  transform: scale(1.01);
+  background: #f3a3a3;
+  border: #ceabab;
+}
+.form-btn{
+  margin-top: 20px;
+  width: min(100px,20%);
+}
+.login.form-active {
+  animation: formActive .7s linear forwards;
+}
+@keyframes formActive {
+  0% {
+    opacity: 0;
+    top: -100px;
+  }
+}
+
+.btn-hidden {
+  height: 0px;
+  visibility: hidden;
+}
+.login form .btn{
+  width: max(80px,20%);
+}
+.login form{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.login form .form-control{
+  width: 90%;
+}
+.input-group{
+  margin: 20px 0;
+}
+.input-group input{
+  border: 1px #f3a3a3 solid;
+  border-radius: 5px;
+  height: 40px;
+}
+form .instruction input,.question-bank input{
+  padding-left: 10px;
+  margin-bottom: 10px;
+  width: 50%;
+  height: 40px;
+  border: 1px #f3a3a3 solid;
+  border-radius: 5px;
+}
+form .instruction .btn,.question-bank .btn{
+  color: #000;
+  border: #f3a3a3 2px solid;
+  height: 40px;
+}
+
